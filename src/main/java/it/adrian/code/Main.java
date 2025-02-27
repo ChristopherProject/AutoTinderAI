@@ -57,10 +57,10 @@ public class Main {
     private static final String AGE_MODEL = MODEL_DIR + "age_net.caffemodel";
     private static final String GENDER_PROTO = MODEL_DIR + "gender_deploy.prototxt";
     private static final String GENDER_MODEL = MODEL_DIR + "gender_net.caffemodel";
-    private static final String URL_AGE_PROTO = "https://raw.githubusercontent.com/opencv/opencv_extra/master/testdata/dnn/age_deploy.prototxt";
-    private static final String URL_AGE_MODEL = "https://github.com/davidsandberg/facenet/raw/master/models/caffe/age_net.caffemodel";
-    private static final String URL_GENDER_PROTO = "https://raw.githubusercontent.com/opencv/opencv_extra/master/testdata/dnn/gender_deploy.prototxt";
-    private static final String URL_GENDER_MODEL = "https://github.com/davidsandberg/facenet/raw/master/models/caffe/gender_net.caffemodel";
+    private static final String URL_AGE_PROTO = "https://raw.githubusercontent.com/ChristopherProject/AutoTinderAI/models/age_deploy.prototxt";
+    private static final String URL_AGE_MODEL = "https://github.com/ChristopherProject/AutoTinderAI/models/age_net.caffemodel";
+    private static final String URL_GENDER_PROTO = "https://raw.githubusercontent.com/ChristopherProject/AutoTinderAI/models/gender_deploy.prototxt";
+    private static final String URL_GENDER_MODEL = "https://github.com/ChristopherProject/AutoTinderAI/models/gender_net.caffemodel";
     private static final CascadeClassifier faceDetector = new CascadeClassifier("haarcascade_frontalface_default.xml");
     private static final CascadeClassifier bodyDetector = new CascadeClassifier("haarcascade_fullbody.xml");
     private static final Net ageNet;
